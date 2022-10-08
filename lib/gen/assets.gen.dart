@@ -38,11 +38,20 @@ class $AssetsImagesGen {
   /// File path: assets/images/login.svg
   SvgGenImage get login => const SvgGenImage('assets/images/login.svg');
 
-
-
   /// File path: assets/images/signup.svg
   SvgGenImage get signup => const SvgGenImage('assets/images/signup.svg');
 
+  /// File path: assets/images/testpic1.jpg
+  AssetGenImage get testpic1 =>
+      const AssetGenImage('assets/images/testpic1.jpg');
+
+  /// File path: assets/images/testpic2.jpg
+  AssetGenImage get testpic2 =>
+      const AssetGenImage('assets/images/testpic2.jpg');
+
+  /// File path: assets/images/testpic3.jpg
+  AssetGenImage get testpic3 =>
+      const AssetGenImage('assets/images/testpic3.jpg');
 }
 
 class Assets {

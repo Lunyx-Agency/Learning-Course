@@ -4,7 +4,7 @@ import 'package:learning_course/constants/constants.dart';
 import 'package:learning_course/model/course_item_model.dart';
 
 import '../../components/components.dart';
-import 'item_vertical.dart';
+import 'card_item_vertical.dart';
 
 class ItemVerticalList extends StatelessWidget {
   final String title;
@@ -19,7 +19,7 @@ class ItemVerticalList extends StatelessWidget {
           itemBuilder: (context, index) {
             return Padding(
               padding: EdgeInsets.fromLTRB(bodyMargin, index==0 ? 32 : bodyMargin/2, bodyMargin, bodyMargin/2),
-              child: ItemVertical(item: fakeCourseItems[index],),
+              child: CardItemVertical(item: fakeCourseItems[index],),
             );
           },
           itemCount: fakeCourseItems.length,

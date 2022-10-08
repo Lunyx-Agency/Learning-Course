@@ -6,7 +6,7 @@ import '../../../constants/colors.dart';
 import '../../../constants/constants.dart';
 import '../../../constants/strings.dart';
 import '../../../model/course_item_model.dart';
-import 'item_horizontal.dart';
+import 'card_item_horizontal.dart';
 
 class CourseCategory extends StatelessWidget {
   final String catTitle;
@@ -58,7 +58,7 @@ class CourseCategory extends StatelessWidget {
           child: ListView.builder(itemBuilder: (context, index) {
             return  Padding(
               padding: EdgeInsets.fromLTRB( index==mylist.length-1 ? 12 : 8, 4, index==0 ? 16 : 8, 16),
-              child: ItemHorizontal(item: mylist[index],),
+              child: CardItemHorizontal(item: mylist[index],),
             );
           },
             itemCount: mylist.length,

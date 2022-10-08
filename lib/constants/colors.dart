@@ -14,4 +14,7 @@ var logInTextField = const Color.fromARGB(240, 240, 240, 240);
 
 
 var itemColor = const Color(0xFFFFFFFF);
+var bottomSheetBgColor = const Color(0xFFFFFFFF);
+var bottomSheetBarrierColor = const Color(0xFF04000F).withOpacity(0.6);
+var textFiledFillColor = const Color(0xFFF0F0F0);
 
